@@ -1,24 +1,6 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 /* CELULAR */
 
 @media screen and (max-width: 840px) {
-
-    /* CABEÇALHO */
-
-    .header {
-        height: 80px;
-        width: auto;
-        background-color: antiquewhite;
-        border-bottom: black 3px solid;
-        /* display: flex;
-        flex-direction: column;
-        text-align: center; */
-    }
     
     /* CABEÇALHO BOTOES */
     
@@ -28,24 +10,62 @@
         flex-direction: column;
         text-align: center;
         text-decoration: none;
+
+        .nomedoblog {
+            font-size: 35px;
+            text-align: center;
+    
+            
+        }
+    
+        @font-face {
+            font-family: ;
+            src: url('font\Photograph Signature') format('truetype');
+        }
     }
 
     /* TITULOS */
-    .tit1, .tit2, .tit3, .tit4{
+    .tit1, .tit2, .tit3, .tit4, .tit5, .casamento{
         margin-top: 70px;
         font-size: 35px;
-        font-family: 'Times New Roman', Times, serif;
+        /* font-family: 'Times New Roman', Times, serif; */
         font-weight: bold;
         text-align: center;
-        text-decoration: underline black;
+        text-decoration: underline black 2px;
     }
 
     /* TEXTOS */
 
-    .tex1, .tex2, .tex3, .tex4 {
+    .tex1, .tex2, .tex3, .tex4, .tex5 {
         margin-top: 20px;
         margin-left: 15px;
         margin-right: 15px;
         font-size: 20px;
+    }
+    
+    .casamento2 {
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sim, .nao {
+        margin-top: 20px;
+        margin-left: 65px;
+        background-color: black;
+        border: black;
+        color: lightpink;
+        height: 35px;
+        width: 90px;
+        border-radius: 10px;
+        font-size: 20px;
+
+        &:hover {
+            color: black;
+            background-color: lightpink;
+            border: black 2px solid;
+        }
     }
 }
