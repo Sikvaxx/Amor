@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+/* CABEÇALHO */
+
+.header {
+    height: 80px;
+    width: auto;
+    background-color: lightpink;
+    border-bottom: black 3px solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+    .nomedoblog {
+        font-size: 35px;
+        text-align: center;
+
+        
+    }
+
+    @font-face {
+        font-family: ;
+        src: url('font/Photograph Signature') format('truetype');
+    }
+}
+
+.rodape {
+
+    margin-top: 50px;
+    background-color: lightpink;
+    border-top: black 3px solid;
+    height: 40px;
+    
+    .footer {
+        text-align: center;
+
+        & .lista{
+            .botoes {
+                display: inline-table;
+                /* flex-direction: column; */
+                text-align: center;
+                margin-left: 15px;
+                margin-top: 10px;
+            }
+        }
+    }
+}

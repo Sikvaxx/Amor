@@ -1,0 +1,12 @@
+@media screen and (max-width: 840px) {
+    
+    /* CABEÇALHO BOTOES */
+    
+    a {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-decoration: none;
+    }
+}
